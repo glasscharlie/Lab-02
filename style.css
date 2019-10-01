@@ -1,5 +1,5 @@
 body { background-color: black; }
-h1 {color: red; text-align: center;}
+h1 {font-size: 40px;color: red; text-align: center;}
 p {color: white; width: 50%}
 p{
     border-style: solid;
