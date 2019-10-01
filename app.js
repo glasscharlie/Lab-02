@@ -47,3 +47,13 @@ if(tattoo === 'yes' || tattoo === 'n') {
 else{
   alert('Incorrect, I have a charmander tattoo on my left shoulder');
 }
+
+var codingBackground = prompt('Do I have a background in coding?');
+console.log('codingBackground '+codingBackground);
+codingBackground = codingBackground.toLowerCase();
+if(codingBackground === 'no' || codingBackground === 'n') {
+  alert('Correct, I do not have a background in coding');
+}
+else{
+  alert('Incorrect, I do not have a background in coding');
+}
