@@ -15,15 +15,35 @@ if(bornInWashington === 'yes' || bornInWashington === 'y') {
   alert('Correct, I was born in Woodinville, Washington!');
 }
 else {
-  alert('Sorry, I was born in Woodinville, Washington');
+  alert('Incorrect, I was born in Woodinville, Washington');
 }
 
 var leftHanded = prompt('Am I left handed?');
-console.log('leftHanded:'+leftHanded);
+console.log('leftHanded: '+leftHanded);
 leftHanded = leftHanded.toLowerCase();
 if(leftHanded === 'no' || leftHanded === 'n') {
   alert('Correct, I am not left handed, except when it comes to shooting pool');
 }
 else {
   alert('Incorrect, I am not left handed, except when it comes to playing pool');
+}
+
+var canadian = prompt('Have I ever lived outside of Washington?');
+console.log('canadian: '+canadian);
+canadian = canadian.toLowerCase();
+if(canadian === 'yes' || canadian === 'y') {
+  alert('Correct, I lived in Canada for awhile when I was younger');
+}
+else {
+  alert('Incorrect, I lived in Canada for awhile when I was younger');
+}
+
+var tattoo = prompt('Do I have a tattoo?');
+console.log('tattoo: '+tattoo);
+tattoo = tattoo.toLowerCase();
+if(tattoo === 'yes' || tattoo === 'n') {
+  alert('Correct, I have a charmanader tattoo on my left shoulder');
+}
+else{
+  alert('Incorrect, I have a charmander tattoo on my left shoulder');
 }
