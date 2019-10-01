@@ -17,3 +17,13 @@ if(bornInWashington === 'yes' || bornInWashington === 'y') {
 else {
   alert('Sorry, I was born in Woodinville, Washington');
 }
+
+var leftHanded = prompt('Am I left handed?');
+console.log('leftHanded:'+leftHanded);
+leftHanded = leftHanded.toLowerCase();
+if(leftHanded === 'no' || leftHanded === 'n') {
+  alert('Correct, I am not left handed, except when it comes to shooting pool');
+}
+else {
+  alert('Incorrect, I am not left handed, except when it comes to playing pool');
+}
