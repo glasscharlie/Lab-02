@@ -10,6 +10,8 @@ p{
 
   #tvShows { 
     border-style: solid;
-  border-color: green;
-  width: 50%
+    border-width: 5px;
+  border-color: purple;
+  width: 50%;
+  color: orange;
   }

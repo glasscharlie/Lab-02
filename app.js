@@ -59,8 +59,6 @@ else {
 }
 
 
-alert('Thanks for taking my short about me quiz, ' + userName + '!');
-
 
 
 
@@ -94,32 +92,14 @@ while (tries > 0) {
 
 var favoriteMovies = ['momento', 'breakfast club', 'shawshank redemption', 'harry potter', 'fast and the furious', 'love actually'];
 
-console.log(favoriteMovies[i]);
-var answerMovies = prompt('What is one of my top 6 favorite movies?');
-console.log('answerMovies: ' + answerMovies);
-answerMovies = answerMovies.toLowerCase();
-for(var i = 0; i < favoriteMovies.length; i++) {
-  if (favoriteMovies[i] === answerMovies) {
-    alert('Great job, my favorite movies are breakfast club, momento, shawshank redemption, harry potter, fast and the furious, and love actually!');
+for (var i = 0; i < 5; i++) {
+  var answerMovies = prompt('Can you guess one of my favorite movies?');
+  //console.log('answerMovies: ' + answerMovies);
+  if (favoriteMovies.includes(answerMovies)) {
+    alert('Good job, ' + answerMovies + ' is one of my favorite movies!');
     break;
-  }
-  else if (favoriteMovies[i] !== answerMovies) {
-    var attemptTwo =prompt('that is not one of my favorite movies, please try again');
-    console.log('Guesstwo: ' + attemptTwo);
-    attemptTwo=attemptTwo.toLowerCase();
-    for(var z = 0; z < favoriteMovies.length; z++)
-      if (favoriteMovies[z] === attemptTwo)
-        alert('Great job, my favorite movies are breakfast club, momento, shawshank redemption, harry potter, fast and the furious, and love actually!');
-    break;
-  }
-  else if (favoriteMovies[z] !== answerMovies || favoriteMovies[i]){
-    var attemptThree =prompt('that is not one of my favorite movies, please try again');
-    console.log('Guessthree: ' + attemptThree);
-    attemptThree=attemptThree.toLowerCase();
-    for(var x = 0; x < favoriteMovies.length; x++)
-      if (favoriteMovies[x] === attemptTwo)
-        alert('Great job, my favorite movies are breakfast club, momento, shawshank redemption, harry potter, fast and the furious, and love actually!');
-    break;
+  } else {
+    alert(answerMovies + 'is not one of my favorite movies, plaese try again!');
   }
 }
 
@@ -127,5 +107,5 @@ for(var i = 0; i < favoriteMovies.length; i++) {
 
 
 
-// alert('Thanks for taking my short about me quiz, ' + userName + '!');
+alert('Thanks for taking my short about me quiz, ' + userName + '!');
 
