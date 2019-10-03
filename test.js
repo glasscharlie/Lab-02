@@ -23,4 +23,26 @@
 
 
 
+//function practice
+// function hello() {
+// console.log('hello world');
+// }
+// hello();
+
+// function iAskedYouFirst() {
+//   var userAnswer = 'yes';
+
+//   if(userAnswer === 'yes') {
+//     console.log('the user said yes');
+//   } else {
+//     console.log('the user did not say yes');
+//   }
+// }
+// iAskedYouFirst();
+
+
+// function doSomething(userName) {
+//   console.log();
+// }
+
 

@@ -107,7 +107,7 @@ for (var i = 0; i < 5; i++) {
     number++;
     break;
   } else {
-    alert(answerMovies + 'is not one of my favorite movies, plaese try again!');
+    alert(answerMovies + 'is not one of my favorite movies, please try again!');
   }
 }
 
