@@ -41,8 +41,24 @@
 // iAskedYouFirst();
 
 
-// function doSomething(userName) {
-//   console.log();
+// function doSomething(userName, differentPerson) {
+//   console.log('hello ' + userName + ' and ' + differentPerson);
 // }
+// doSomething('Wyatt', 'terrell');
 
+// function doSomething(userName, differentPerson, otherPerson) {
+//     console.log(userName + ', ' + differentPerson + ', and ' + otherPerson + ' are really great and smart people!');
+//     }
+
+//     doSomething('tyler', 'austin', 'Krystal');
+
+
+// function doSomething(catName, otherCatName, catAge, otherCatAge) {
+//     var totalAges = catAge + otherCatAge;
+//   console.log(catName + ' is ' + catAge + ', and ' + otherCatName + ' is ' + otherCatAge + '! The total age of the cats is ' + totalAges);
+//   }
+  
+//   doSomething('Whiskers', 'Simba', 2, 6);
+  
+  
 
