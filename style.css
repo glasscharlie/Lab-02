@@ -9,6 +9,7 @@ p{
   }
 
   #tvShows { 
+    box-align: center;
     align-content: center;
     text-align: center;
     border-style: solid;
@@ -19,7 +20,7 @@ p{
   }
 
   img {
-    box-align: center;
+    align: center;
     width: 250px;
     }
 
