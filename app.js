@@ -1,6 +1,6 @@
 'use strict';
 
-var number = 4;
+var number = 0;
 var string = 'string';
 var booleon = true;
 
@@ -68,6 +68,7 @@ var answer = 3;
 
 while (tries > 0) {
   var guess = prompt('What is my favorite number between 1 and 10');
+  guess = parseInt(guess);
   console.log('guess: ' + guess);
   if (guess > answer) {
     alert('Your guess is too high.');
