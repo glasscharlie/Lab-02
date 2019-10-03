@@ -57,8 +57,8 @@
 //     var totalAges = catAge + otherCatAge;
 //   console.log(catName + ' is ' + catAge + ', and ' + otherCatName + ' is ' + otherCatAge + '! The total age of the cats is ' + totalAges);
 //   }
-  
+
 //   doSomething('Whiskers', 'Simba', 2, 6);
-  
-  
+
+
 
