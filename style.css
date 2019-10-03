@@ -19,6 +19,10 @@ p{
   }
 
   img {
-    align-content: center;
+    box-align: center;
     width: 250px;
+    }
+
+    h3 {
+      color: rgb(255, 255, 255)
     }
