@@ -1,8 +1,6 @@
 'use strict';
 
 var number = 0;
-var string = 'string';
-var booleon = true;
 
 var userName = prompt('What\'s your name?');
 // console.log('userName: '+ userName);
@@ -115,5 +113,5 @@ for (var i = 0; i < 5; i++) {
 
 
 
-alert('Thanks for taking my short about me quiz, ' + userName + '!, you got ' + number + 'correct out of 7');
+alert('Thanks for taking my short about me quiz, ' + userName + '!, you got ' + number + ' correct out of 7');
 
