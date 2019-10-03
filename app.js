@@ -103,6 +103,7 @@ for (var i = 0; i < 5; i++) {
   //console.log('answerMovies: ' + answerMovies);
   if (favoriteMovies.includes(answerMovies)) {
     alert('Good job, ' + answerMovies + ' is one of my favorite movies!');
+    alert('My favorite movies are ' + favoriteMovies);
     number++;
     break;
   } else {
