@@ -7,3 +7,9 @@ p{
     border-style: dotted;
     border-color: pink
   }
+
+  #tvShows { 
+    border-style: solid;
+  border-color: green;
+  width: 50%
+  }
