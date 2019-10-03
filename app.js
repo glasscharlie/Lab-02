@@ -13,6 +13,7 @@ var bornInWashington = prompt('Question 1: Was I born in Washington?');
 bornInWashington = bornInWashington.toLowerCase();
 if (bornInWashington === 'yes' || bornInWashington === 'y') {
   alert('Correct, I was born in Woodinville, Washington!');
+  number++;
 }
 else {
   alert('Incorrect, I was born in Woodinville, Washington');
@@ -23,6 +24,7 @@ var leftHanded = prompt('Am I left handed?');
 leftHanded = leftHanded.toLowerCase();
 if (leftHanded === 'no' || leftHanded === 'n') {
   alert('Correct, I am not left handed, except when it comes to shooting pool');
+  number++;
 }
 else {
   alert('Incorrect, I am not left handed, except when it comes to playing pool');
@@ -33,6 +35,7 @@ var canadian = prompt('Have I ever lived outside of Washington?');
 canadian = canadian.toLowerCase();
 if (canadian === 'yes' || canadian === 'y') {
   alert('Correct, I lived in Canada for awhile when I was younger');
+  number++;
 }
 else {
   alert('Incorrect, I lived in Canada for awhile when I was younger');
@@ -43,6 +46,7 @@ var tattoo = prompt('Do I have a tattoo?');
 tattoo = tattoo.toLowerCase();
 if (tattoo === 'yes' || tattoo === 'n') {
   alert('Correct, I have a charmanader tattoo on my left shoulder');
+  number++;
 }
 else {
   alert('Incorrect, I have a charmander tattoo on my left shoulder');
@@ -53,6 +57,7 @@ var codingBackground = prompt('Do I have a background in coding?');
 codingBackground = codingBackground.toLowerCase();
 if (codingBackground === 'no' || codingBackground === 'n') {
   alert('Correct, I do not have a background in coding');
+  number++;
 }
 else {
   alert('Incorrect, I do not have a background in coding');
@@ -68,7 +73,6 @@ var answer = 3;
 
 while (tries > 0) {
   var guess = prompt('What is my favorite number between 1 and 10');
-  guess = parseInt(guess);
   console.log('guess: ' + guess);
   if (guess > answer) {
     alert('Your guess is too high.');
@@ -79,6 +83,7 @@ while (tries > 0) {
 
   else {
     alert('Great job, my favorite number is 3!');
+    number++;
     { break; }
   }
   tries = tries - 1;
@@ -98,6 +103,7 @@ for (var i = 0; i < 5; i++) {
   //console.log('answerMovies: ' + answerMovies);
   if (favoriteMovies.includes(answerMovies)) {
     alert('Good job, ' + answerMovies + ' is one of my favorite movies!');
+    number++;
     break;
   } else {
     alert(answerMovies + 'is not one of my favorite movies, plaese try again!');
@@ -108,5 +114,5 @@ for (var i = 0; i < 5; i++) {
 
 
 
-alert('Thanks for taking my short about me quiz, ' + userName + '!');
+alert('Thanks for taking my short about me quiz, ' + userName + '!, you got ' + number + 'correct out of 7');
 
