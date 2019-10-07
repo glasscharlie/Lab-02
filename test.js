@@ -61,4 +61,15 @@
 //   doSomething('Whiskers', 'Simba', 2, 6);
 
 
+//object properties
+// var myArray = [1, 2, 3, 4, 5, 6];
 
+// var car = {
+//   color: 'red',
+//   size: 'sedan',
+//   runs: function() {
+//     console.log('vroom!');
+//   }
+// }
+
+// car.runs();
